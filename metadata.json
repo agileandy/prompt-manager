@@ -1,0 +1,6 @@
+{
+  "name": "AI Prompt Manager",
+  "description": "A slick, modern UI to manage your AI prompts. Add, edit, delete, and organize prompts with quick copy-to-clipboard functionality, usage tracking, and sorting options.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

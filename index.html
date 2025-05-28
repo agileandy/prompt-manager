@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-P8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Prompt Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Enable dark mode using the class strategy
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#1E40AF', // A deep blue
+                light: '#3B82F6',
+                dark: '#1E3A8A',
+              },
+              secondary: '#0D9488', // A teal
+              neutral: {
+                '50': '#F8FAFC',
+                '100': '#F1F5F9',
+                '200': '#E2E8F0',
+                '300': '#CBD5E1',
+                '400': '#94A3B8',
+                '500': '#64748B',
+                '600': '#475569',
+                '700': '#334155',
+                '800': '#1E293B',
+                '900': '#0F172A',
+              },
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "idb": "https://esm.sh/idb@8?bundle"
+  }
+}
+</script>
+</head>
+  <body class="bg-neutral-100 dark:bg-neutral-900 transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>

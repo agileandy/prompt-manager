@@ -1,0 +1,52 @@
+# Node.js and npm files
+node_modules/
+package-lock.json
+
+# Vite build files
+dist/
+build/
+
+# TypeScript and JavaScript files that are generated or compiled
+*.js
+*.d.ts
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Database files
+idb/
+
+# PID file
+dev_runner.pid
+
+# Other files that don't need to be version-controlled
+dummy-prompts.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
